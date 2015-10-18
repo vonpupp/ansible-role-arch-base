@@ -1,0 +1,4 @@
+---
+
+dependencies:
+  - { role: Stouts.hostname, some_parameter: 3 }

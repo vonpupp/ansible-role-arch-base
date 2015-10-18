@@ -1,0 +1,6 @@
+---
+
+vars:
+  - hostname_enabled: yes                       # Enable module
+  - hostname_hostname: "{{ v_hostname }}"       # Set hostname
+  - hostname_hostname_short: "{{ hostname_hostname.split('.')[:-1]|join('.') }}" # Set short hostname

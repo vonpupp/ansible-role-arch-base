@@ -7,4 +7,5 @@
 
   roles:
       #- ansible-role-arch-base/roles/arch-base/upgrade-packages
-    - ansible-role-arch-base/roles/arch-base/update-pacman-cache
+    - arch-any-update-pacman-cache
+    - arch-any-hostname

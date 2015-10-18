@@ -1,4 +1,10 @@
 # roles/ansible-role-arch-base/defaults/main.yml
 ---
 
-
+  vars:
+    - v_hostname: vagrant.local
+    - v_locales:
+      - en_US.UTF-8
+      - es_ES.UTF-8
+      - pt_BR.UTF-8
+      - fr_FR.UTF-8
