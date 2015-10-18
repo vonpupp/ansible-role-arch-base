@@ -1,5 +1,10 @@
 ---
 - hosts: all
   sudo: true
+
+  vars:
+    - ansible_python_interpreter: /usr/bin/python2
+
   roles:
-    - ansible-role-arch-base/roles/arch-base/upgrade-packages
+      #- ansible-role-arch-base/roles/arch-base/upgrade-packages
+    - ansible-role-arch-base/roles/arch-base/update-pacman-cache

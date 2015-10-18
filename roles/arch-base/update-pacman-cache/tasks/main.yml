@@ -1,0 +1,6 @@
+# roles/ansible-role-arch-upgrade/tasks/main.yml
+---
+
+# Run the equivalent of "pacman -Sy"
+- name: update pacman cache
+  pacman: update_cache=yes
