@@ -2,4 +2,4 @@
 - hosts: all
   sudo: true
   roles:
-    - ansible-role-arch-base
+    - ansible-role-arch-base/roles/arch-base/upgrade-packages
