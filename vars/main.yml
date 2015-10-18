@@ -1,0 +1,9 @@
+# roles/ansible-role-arch-base/vars/main.yml
+---
+
+ansible_python_interpreter: /usr/bin/python2
+
+ansible-role-arch-base_packages:
+  - ansible-role-arch-base
+
+ansible-role-arch-base_service: ansible-role-arch-based

@@ -1,0 +1,7 @@
+# roles/ansible-role-arch-base/handlers/main.yml
+---
+
+- name: restart ansible-role-arch-base
+  service:
+    name: ansible-role-arch-based
+    state: restarted
